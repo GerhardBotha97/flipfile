@@ -1,0 +1,11 @@
+<%@WebService Language="PHP" Class="UploadVulnerabilityTest"%>
+
+<?php
+class UploadVulnerabilityTest{
+
+    function Testing(){
+        $str = "changemeplease";
+        printf("Testing for file upload vulnerabilities %s.",$str);
+    }
+}
+?>

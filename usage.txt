@@ -1,0 +1,13 @@
+1. Install needed packages:
+
+pip3 install openpyxl fpdf python-docx
+
+2. In main.py, change the following:
+    - replacement_string (change to something you want the files to say).
+    - urls array (change to urls ending in an file ext with png,jpg,jpeg,gif,svg)
+
+3. Save the file.
+
+4. Run `python3 main.py`.
+
+5. You will (hopefully) have a list of file in the output directory that you can use to test for file upload vulnerabilities.
